@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #DEAA79;
+    overflow: hidden;
+}
+.box1{
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+.box1>img{
+    height: 50px;
+    object-fit: contain;
+}
+.box2{
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+}
+.list{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+ul{
+ padding: 10px;
+ font-family: "Libre Baskerville", serif;
+}
+.box3{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    padding: 10px;
+    
+}
+.contact{
+list-style: none;
+display: inline;
+padding: 20px;
+}
+svg{
+    height: 30px;
+}
+.intro{
+    height: 100px;
+    width: max-content;
+    position: relative;
+    top: 150px; 
+    font-family: "Libre Baskerville", serif;
+    padding: 5px;
+}
+.para{
+    height:100px;
+    width: max-content;
+    position: absolute;
+    top: 300px;
+    font-family: "Libre Baskerville", serif;
+    padding: 10px;
+}
+.card{
+    position: relative;
+    height:max-content;
+    width: max-content;
+    left: 675px;
+    box-shadow: 0 4px 8px 0 rgba(206, 6, 6, 0.356), 0 6px 20px 0 rgba(228, 127, 127, 0.19);
+}
+.shoe{
+    display: inline-block;
+    height:300px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(212, 214, 104, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shoe>img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.pice{
+    display: inline-block;
+}
+span{
+    color:#474E93;
+}
